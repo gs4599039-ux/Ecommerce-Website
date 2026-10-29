@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My E-commerceWebsite</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+          <nav>
+            <div class="logo">
+                <div class="menu-toggle" id="menu-toggle">
+                     ☰
+                </div>
+                <h1>shopEase</h1>
+            </div>
+            <ul id="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html">Products</a></li>
+                 <li><a href="category.html">Categories</a></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="icons">
+                
+                <button id="theme-toggle">🌙</button>
+
+                <a href="search.html">&#128269</a>
+                 
+                <a href="cart.html">
+                &#128722(<span id="cart-count">0</span>)
+                </a>
+                <a href="wishlist.html">❤️</a>
+                
+            </div>
+          </nav>
+        </header>
+
+        <main>
+        <!--hero section-->
+       <section class="hero">
+
+    <div class="slider">
+
+        <img src="images/banners/banner1.jpg" class="slide active">
+
+        <img src="images/banners/banner2.jpg" class="slide">
+
+        <img src="images/banners/banner3.jpg" class="slide">
+
+    </div>
+
+    <div class="hero-content">
+
+        <h2>Welcome To ShopEase</h2>
+
+        <p>Best Deals On Every Product</p>
+
+        <button onclick="window.location.href='products.html'">
+            Shop Now
+        </button>
+
+    </div>
+
+</section>
+         <!--shop by category-->
+
+        <section class="category">
+
+        <h2>Shop by Category</h2>
+        <div class="category-container">
+            <div class="category-card">
+                <img src="images/categories/fashion.jpg" alt="fashion">
+                <h3>Fashion</h3>
+            </div>
+            <div class="category-card">
+                <img src="images/categories/electronics.jpg" alt="electronics">
+                <h3>Electronics</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="images/categories/grocery.jpg" alt="grocery">
+                <h3>Grocery</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="images/categories/books.jpg" alt="books">
+                <h3>Books</h3>
+            </div>
+        </div>
+        </section>
+
+         <!--latest products-->
+
+        <section class="products">
+            <h2>Latest Products</h2>
+            <div class="product-container">
+
+                 <div class="home-product-card">
+                    <img src="images/products/product1.jpg" alt="products">
+                    <h3>Smart Watch</h3>
+                    <p>₹1999</p>
+
+                    <button class="add-cart"
+                    data-name="Smart Watch"
+                    data-price="1999"
+                    data-image="images/products/product1.jpg">
+                    Add To Cart
+                   </button>
+                </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product2.jpg" alt="Headphone">
+                    <h3>Headphone</h3>
+                    <p>₹999</p>
+
+                    
+                    <button class="add-cart"
+                     data-name="Headphone"
+                     data-price="999"
+                     data-image="images/products/product2.jpg">
+                     Add To Cart
+                   </button>
+                 </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product3.jpg" alt="products">
+                    <h3>Shoes</h3>
+                    <p>₹1499</p>
+
+                  <button class="add-cart"
+                   data-name="shoes"
+                   data-price="1499"
+                   data-image="images/products/product3.jpg">
+                   Add To Cart
+                  </button>
+                </div>
+
+                <div class="home-product-card">
+                    <img src="images/products/product4.jpg" alt="products">
+                    <h3>Bag</h3>
+                    <p>₹899</p>
+                  
+                    <button class="add-cart"
+                    data-name="Bag"
+                    data-price="899"
+                    data-image="images/products/product4.jpg">
+                    Add To Cart
+                    </button>
+                </div>
+            </div>
+        </section >
+
+       <!--features-->
+
+        <section class="features">
+
+        <div class="features-box">
+            <h3>&#128666;free shipping</h3>
+            <p>free shipping on all orders.</p>
+        </div>
+         <div class="features-box">
+            <h3>&#128179;Secure payment</h3>
+            <p>100% secure online payment.</p>
+        </div>
+         <div class="features-box">
+            <h3>&#128260;easy return</h3>
+            <p>7 days easy return policy.</p>
+        </div>
+        <div class="features-box">
+            <h3>&#128222;24/7 support</h3>
+            <p>customer support anytime.</p>
+        </div>
+        </section>
+
+        </main>
+
+       <!--footer-->
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-box">
+                    <h2>shopEase</h2>
+                    <p>Your One Stop online Shopping Store.</p>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact</h3>
+                    <p>&#9993:shop@gmail.com </p>
+                    <p>&#128222:+91 2343244254</p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                &#169;2026 ShopEase. All Rights Reseved.
+            </p>
+        </footer>
+        <!--scroll button-->
+
+        <button id="topBtn">↑</button>
+         
+         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>  
+        <script src="js/script.js"></script>
+    </body>
+</html>  
